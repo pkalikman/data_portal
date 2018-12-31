@@ -21,7 +21,7 @@ Contents:
 
 `$ git pull origin master`
 
-`$ git branch -b new_branch`
+`$ git checkout -b new_branch`
 
 Then edit as follows.
 
@@ -33,7 +33,7 @@ E.g.
 
 `fred_api_key = '123456789'`
 
-After making this edit, run:
+After making this edit, make sure you are in the directory `data_portal/docs/data`,  and run:
 
 `$ python data/mkdata.py` 
 
